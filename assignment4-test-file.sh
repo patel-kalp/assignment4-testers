@@ -1,10 +1,10 @@
 #!/bin/bash
 
-rm -rf assignment4-patel-kalp;
 GITHUB_USERNAME='';
 COMMIT_ID='';
 echo -n "Students GitHub Username: "
 read GITHUB_USERNAME
+rm -rf assignment4-$GITHUB_USERNAME;
 echo -n "Commit ID (<enter> for most recent): "
 read COMMIT_ID
 git clone git@github.com:PSUCMPSC311/assignment4-$GITHUB_USERNAME
