@@ -15,7 +15,6 @@ else
     git checkout -b $COMMIT_ID;
 fi
 git branch;
-sleep 5;
 echo '';
 mkdir costCalc;
 make;
