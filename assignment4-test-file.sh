@@ -8,9 +8,9 @@ read GITHUB_USERNAME
 echo -n "Commit ID (<enter> for most recent): "
 read COMMIT_ID
 git clone git@github.com:PSUCMPSC311/assignment4-$GITHUB_USERNAME
-cd assignment4-patel-kalp;
+cd assignment4-$GITHUB_USERNAME;
 if [ -z "$COMMIT_ID" ]; then
-    echo 'TESTTESTTEST';
+    :
 else
     git checkout -b $COMMIT_ID;
 fi
