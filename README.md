@@ -1,6 +1,6 @@
 # assignment4-testers
 
-##How to use
+##How to use  
 ###assignment4-tester.sh
 After downloading into the same repository as assignment4, do:
 chmod u+x assignment4-tester.sh
