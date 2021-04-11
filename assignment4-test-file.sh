@@ -177,4 +177,5 @@ diff -u traces/scan-expected-output my-output;
 echo "Total Cost (w/ Simple)  = $(expr $SI4 + $LI4 + $RA4 + $SC4)";
 echo "Total Cost (w/o Simple) = $(expr $LI4 + $RA4 + $SC4)";
 rm -rf costCalc;
+git branch -d $COMMIT_ID
 echo '';
