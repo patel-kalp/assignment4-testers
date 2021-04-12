@@ -5,6 +5,8 @@ make;
 echo '';
 ./tester;
 echo '';
+echo 'If your output and the expected output have no differences, you will not see anything.'
+echo 'Otherwise, it will output the differences as normal.'
 echo '----------------No Cache----------------';
 echo -n "Simple: ";
 ./tester -w traces/simple-input >my-output 2>costCalc/SI0;
