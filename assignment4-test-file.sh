@@ -181,6 +181,6 @@ rm -rf costCalc;
 if [ -z "$COMMIT_ID" ]; then
     :
 else
-    git branch -d $COMMIT_ID
+    git checkout main;
 fi
 echo '';
